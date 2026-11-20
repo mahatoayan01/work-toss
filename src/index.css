@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+  
+  body {
+    background-color: #090A0D;
+    color: #FAF7F2;
+    overflow-x: hidden;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #111317;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2C323E;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #DC2626;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-wok-red hover:bg-wok-redHover text-white font-medium shadow-glow-red transition-all duration-200 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-wok-surface hover:bg-wok-card text-wok-cream border border-wok-border hover:border-wok-gold transition-all duration-200 active:scale-95;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-wok-gold hover:bg-wok-goldHover text-wok-darkest font-semibold shadow-glow-gold transition-all duration-200 active:scale-95;
+  }
+
+  .wok-card {
+    @apply bg-wok-surface/80 backdrop-blur-md border border-wok-border/80 rounded-2xl hover:border-wok-red/50 transition-all duration-300;
+  }
+
+  .wok-badge-veg {
+    @apply inline-flex items-center justify-center w-4 h-4 border border-emerald-500 rounded p-[2px];
+  }
+
+  .wok-badge-nonveg {
+    @apply inline-flex items-center justify-center w-4 h-4 border border-red-500 rounded p-[2px];
+  }
+}
+
+/* Image loading placeholder */
+.img-placeholder {
+  background: linear-gradient(135deg, #181B20 0%, #242933 100%);
+}

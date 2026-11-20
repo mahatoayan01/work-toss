@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wok Toss – Pan Asian Restaurant | E-Square The Fern, Pune</title>
+    <meta name="description" content="Experience authentic Pan-Asian dining at Wok Toss, E-Square The Fern, Pune. Interactive live DIY wok and ramen stations, dim sums, sushi, and oriental delights." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:title" content="Wok Toss – Pan Asian Restaurant | E-Square The Fern, Pune" />
+    <meta property="og:description" content="Authentic Pan-Asian dining, live DIY wok and ramen bar, dim sum, and sushi at E-Square The Fern, Shivajinagar, Pune." />
+    <meta property="og:image" content="/images/hero/hero-pan-asian-wok.webp" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Wok Toss – Pan Asian Restaurant | Pune" />
+    <meta name="twitter:description" content="Authentic Pan-Asian live wok and ramen experience at E-Square The Fern, Pune." />
+    <meta name="twitter:image" content="/images/hero/hero-pan-asian-wok.webp" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Wok Toss – Pan Asian restaurant",
+      "image": "/images/hero/hero-pan-asian-wok.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "E-Square The Fern, 132/A, University Road, Premnagar, Ganeshkhind",
+        "addressLocality": "Shivajinagar, Pune",
+        "addressRegion": "Maharashtra",
+        "postalCode": "411016",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.5362,
+        "longitude": 73.8306
+      },
+      "telephone": "+91 20 6604 4100",
+      "servesCuisine": ["Pan-Asian", "Chinese", "Thai", "Japanese", "Asian"],
+      "priceRange": "₹₹",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "12:30",
+          "closes": "15:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "19:00",
+          "closes": "23:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.3",
+        "reviewCount": "920",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "hasMenu": "#/menu",
+      "acceptsReservations": "True"
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-wok-darkest text-wok-cream font-sans antialiased selection:bg-wok-red selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

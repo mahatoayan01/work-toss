@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181B20" />
+      <stop offset="100%" stop-color="#0E1013" />
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#DC2626" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)" />
+  <circle cx="300" cy="180" r="70" fill="#252A34" stroke="#2C323E" stroke-width="2"/>
+  <!-- Wok Silhouette -->
+  <path d="M255 185 C260 220, 340 220, 345 185 Z" fill="#111317" stroke="#F59E0B" stroke-width="2.5"/>
+  <path d="M285 175 C280 155, 300 140, 300 130 C305 145, 315 155, 308 175 Z" fill="url(#flameGrad)"/>
+  <text x="300" y="280" fill="#FAF7F2" font-family="system-ui, sans-serif" font-size="20" font-weight="600" text-anchor="middle">Wok Toss – Pan Asian</text>
+  <text x="300" y="310" fill="#8E96A4" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">Fresh Culinary Delicacy</text>
+</svg>
